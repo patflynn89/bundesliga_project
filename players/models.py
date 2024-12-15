@@ -30,4 +30,3 @@ class PlayerStats(models.Model):
 
     def __str__(self):
         return f"Stats for {self.player.first_name} {self.player.last_name}"
-# Create your models here.
